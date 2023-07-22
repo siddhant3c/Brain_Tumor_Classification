@@ -7,6 +7,8 @@ B.Tech | Electrical Engineering | IIT Bombay
 
 ---
 
+<img alt="Tumor vs No Tumor" src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*ettKgOT8LLIsKOaf8R-mmQ.png">
+
 ## Overview
 
 This project focuses on developing a brain tumor classification model using deep learning techniques to analyze brain MRI images. The dataset initially contained four classes: glioma, pituitary, meningioma, and no tumor. However, for simplicity, the three tumor classes were merged into a single 'tumor' class, while the 'no-tumor' class remained unchanged.
