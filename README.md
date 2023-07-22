@@ -9,7 +9,11 @@ B.Tech | Electrical Engineering | IIT Bombay
 
 ## Overview
 
-In this project, I developed a brain tumor classification model using deep learning techniques to identify the presence of tumors in brain MRI images. The dataset used for this project originally contained four classes: glioma, pituitary, meningioma, and no tumor. However, for simplicity, I merged the three tumor classes into a single class named 'tumor,' while keeping the 'no-tumor' class intact.
+This project focuses on developing a brain tumor classification model using deep learning techniques to analyze brain MRI images. The dataset initially contained four classes: glioma, pituitary, meningioma, and no tumor. However, for simplicity, the three tumor classes were merged into a single 'tumor' class, while the 'no-tumor' class remained unchanged.
+
+Data augmentation techniques, such as flipping and cropping, were applied to increase the training dataset's diversity and prevent overfitting. The model architecture is based on a Convolutional Neural Network (CNN) with convolutional layers, max-pooling layers, and fully connected layers for binary classification.
+
+After training the model, its performance was evaluated on a separate test set, and metrics like accuracy, precision, recall, and F1-score were calculated. The project aims to enhance medical image analysis, aiding in early and accurate brain tumor detection and improving patient care.
 
 ## Dataset
 
